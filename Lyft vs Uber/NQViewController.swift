@@ -8,14 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NQViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         //var startLocation = Location(address: "16 Napier Lane, San Francisco, CA");
-        var city = City(name:"San Francisco");
+        var city = NQCity(name:"San Francisco");
     }
 
     override func didReceiveMemoryWarning() {

@@ -11,14 +11,14 @@ import CoreLocation
 import MapKit
 import AddressBook
 
-class Location: CLLocationManager {
-    var city: City
+class NQLocation: CLLocationManager {
+    var city: NQCity
     required init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
     init(address: String){
-        self.city = City(name: "city")
+        self.city = NQCity()
         super.init()
         geocodeAddress(address)
     }
@@ -34,7 +34,7 @@ class Location: CLLocationManager {
             else if(placemarks?.count > 0){
                 let placemark = placemarks[0] as CLPlacemark
                 let city = placemark.addressDictionary["SubAdministrativeArea"]! as String
-                self.city = City(name: city)
+                self.city = NQCity(name: city)
                 println(self.city.name)
             }
             else{

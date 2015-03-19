@@ -8,15 +8,13 @@
 
 import Foundation
 
-class Query {
+class NQQuery {
     var distance: Double
     var time: Double
-    var city: String
-    var prices: Dictionary<String,Price>
+    var city: NQCity
     var size: String
     
-    init(prices: Dictionary<String,Price>, distance: Double, city:String, time: Double, size: String) {
-        self.prices = prices
+    init(distance: Double, city:NQCity, time: Double, size: String) {
         self.distance = distance
         self.city = city
         self.time = time
@@ -24,7 +22,7 @@ class Query {
     }
     
     func cost() ->  Double {
-        var price = prices[size]
-        return max(price!.base + price!.minute*time + price!.mile*distance + price!.extra, price!.minimum)
+        var price = city.prices.getPriceForSize(self.size)
+        return max(price.base + price.minute*time + price.mile*distance + price.extra, price.minimum)
     }
 }

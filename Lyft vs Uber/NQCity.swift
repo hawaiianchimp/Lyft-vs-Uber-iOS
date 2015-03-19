@@ -8,18 +8,23 @@
 
 import Foundation
 
-class City {
+class NQCity {
     var name: String
-    var prices: Dictionary<String, Price>
-    init(name: String, prices: Dictionary<String, Price>){
+    var prices: NQPrices
+    
+    
+    init(){
+        self.name = ""
+        self.prices = NQPrices()
+    }
+    
+    init(name: String, prices: NQPrices){
         self.name = name
         self.prices = prices
     }
     
     init(name: String){
         self.name = name
-        var prices = Prices(cityName: name)
-        self.prices = prices.priceDictionary
-        
+        self.prices = NQPrices(cityName: name)
     }
 }
