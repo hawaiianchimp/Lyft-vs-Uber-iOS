@@ -14,6 +14,27 @@
 		14201E801ABB2C1400634BEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14201E7F1ABB2C1400634BEF /* Images.xcassets */; };
 		14201E831ABB2C1400634BEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14201E811ABB2C1400634BEF /* LaunchScreen.xib */; };
 		14201E8F1ABB2C1400634BEF /* Lyft_vs_UberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14201E8E1ABB2C1400634BEF /* Lyft_vs_UberTests.swift */; };
+		14201E991ABB2C3700634BEF /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14201E981ABB2C3700634BEF /* Price.swift */; };
+		14201E9B1ABB2C4E00634BEF /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14201E9A1ABB2C4E00634BEF /* Query.swift */; };
+		14201E9D1ABB2C7C00634BEF /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14201E9C1ABB2C7C00634BEF /* City.swift */; };
+		14201E9F1ABB2CEB00634BEF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14201E9E1ABB2CEB00634BEF /* Location.swift */; };
+		14201EA11ABB2DC000634BEF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14201EA01ABB2DC000634BEF /* CoreLocation.framework */; };
+		14201EA31ABB2DCA00634BEF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14201EA21ABB2DCA00634BEF /* CoreData.framework */; };
+		14201EA51ABB42F600634BEF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14201EA41ABB42F600634BEF /* CFNetwork.framework */; };
+		14201EA71ABB42FB00634BEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14201EA61ABB42FB00634BEF /* CoreGraphics.framework */; };
+		14201EA91ABB430100634BEF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14201EA81ABB430100634BEF /* MobileCoreServices.framework */; };
+		14201EAB1ABB430600634BEF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14201EAA1ABB430600634BEF /* QuartzCore.framework */; };
+		14201EAD1ABB430C00634BEF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14201EAC1ABB430C00634BEF /* Security.framework */; };
+		14201EAF1ABB431000634BEF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14201EAE1ABB431000634BEF /* StoreKit.framework */; };
+		14201EB11ABB431700634BEF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14201EB01ABB431700634BEF /* SystemConfiguration.framework */; };
+		14201EB31ABB432000634BEF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14201EB21ABB432000634BEF /* AudioToolbox.framework */; };
+		14201EB51ABB432700634BEF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14201EB41ABB432700634BEF /* libz.dylib */; };
+		14201EB71ABB432F00634BEF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14201EB61ABB432F00634BEF /* libsqlite3.dylib */; };
+		14201EBC1ABB43ED00634BEF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14201EB81ABB43ED00634BEF /* Bolts.framework */; };
+		14201EBD1ABB43ED00634BEF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14201EB91ABB43ED00634BEF /* Parse.framework */; };
+		14201EBE1ABB43ED00634BEF /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14201EBA1ABB43ED00634BEF /* ParseCrashReporting.framework */; };
+		14201EBF1ABB43ED00634BEF /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14201EBB1ABB43ED00634BEF /* ParseUI.framework */; };
+		14201EC11ABB4A2100634BEF /* Prices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14201EC01ABB4A2100634BEF /* Prices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +59,28 @@
 		14201E881ABB2C1400634BEF /* Lyft vs UberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lyft vs UberTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14201E8D1ABB2C1400634BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14201E8E1ABB2C1400634BEF /* Lyft_vs_UberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyft_vs_UberTests.swift; sourceTree = "<group>"; };
+		14201E981ABB2C3700634BEF /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		14201E9A1ABB2C4E00634BEF /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		14201E9C1ABB2C7C00634BEF /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		14201E9E1ABB2CEB00634BEF /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		14201EA01ABB2DC000634BEF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		14201EA21ABB2DCA00634BEF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		14201EA41ABB42F600634BEF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		14201EA61ABB42FB00634BEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14201EA81ABB430100634BEF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		14201EAA1ABB430600634BEF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		14201EAC1ABB430C00634BEF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		14201EAE1ABB431000634BEF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		14201EB01ABB431700634BEF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		14201EB21ABB432000634BEF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		14201EB41ABB432700634BEF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		14201EB61ABB432F00634BEF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		14201EB81ABB43ED00634BEF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		14201EB91ABB43ED00634BEF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		14201EBA1ABB43ED00634BEF /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		14201EBB1ABB43ED00634BEF /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		14201EC01ABB4A2100634BEF /* Prices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prices.swift; sourceTree = "<group>"; };
+		14201EC21ABB4B8500634BEF /* Lyft vs Uber-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lyft vs Uber-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +88,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14201EB71ABB432F00634BEF /* libsqlite3.dylib in Frameworks */,
+				14201EBE1ABB43ED00634BEF /* ParseCrashReporting.framework in Frameworks */,
+				14201EB51ABB432700634BEF /* libz.dylib in Frameworks */,
+				14201EB31ABB432000634BEF /* AudioToolbox.framework in Frameworks */,
+				14201EB11ABB431700634BEF /* SystemConfiguration.framework in Frameworks */,
+				14201EAF1ABB431000634BEF /* StoreKit.framework in Frameworks */,
+				14201EBF1ABB43ED00634BEF /* ParseUI.framework in Frameworks */,
+				14201EAD1ABB430C00634BEF /* Security.framework in Frameworks */,
+				14201EAB1ABB430600634BEF /* QuartzCore.framework in Frameworks */,
+				14201EBC1ABB43ED00634BEF /* Bolts.framework in Frameworks */,
+				14201EA91ABB430100634BEF /* MobileCoreServices.framework in Frameworks */,
+				14201EA71ABB42FB00634BEF /* CoreGraphics.framework in Frameworks */,
+				14201EBD1ABB43ED00634BEF /* Parse.framework in Frameworks */,
+				14201EA51ABB42F600634BEF /* CFNetwork.framework in Frameworks */,
+				14201EA31ABB2DCA00634BEF /* CoreData.framework in Frameworks */,
+				14201EA11ABB2DC000634BEF /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +120,22 @@
 		14201E671ABB2C1400634BEF = {
 			isa = PBXGroup;
 			children = (
+				14201EB61ABB432F00634BEF /* libsqlite3.dylib */,
+				14201EB41ABB432700634BEF /* libz.dylib */,
+				14201EB81ABB43ED00634BEF /* Bolts.framework */,
+				14201EB91ABB43ED00634BEF /* Parse.framework */,
+				14201EBA1ABB43ED00634BEF /* ParseCrashReporting.framework */,
+				14201EBB1ABB43ED00634BEF /* ParseUI.framework */,
+				14201EB21ABB432000634BEF /* AudioToolbox.framework */,
+				14201EB01ABB431700634BEF /* SystemConfiguration.framework */,
+				14201EAE1ABB431000634BEF /* StoreKit.framework */,
+				14201EAC1ABB430C00634BEF /* Security.framework */,
+				14201EAA1ABB430600634BEF /* QuartzCore.framework */,
+				14201EA81ABB430100634BEF /* MobileCoreServices.framework */,
+				14201EA61ABB42FB00634BEF /* CoreGraphics.framework */,
+				14201EA41ABB42F600634BEF /* CFNetwork.framework */,
+				14201EA21ABB2DCA00634BEF /* CoreData.framework */,
+				14201EA01ABB2DC000634BEF /* CoreLocation.framework */,
 				14201E721ABB2C1400634BEF /* Lyft vs Uber */,
 				14201E8B1ABB2C1400634BEF /* Lyft vs UberTests */,
 				14201E711ABB2C1400634BEF /* Products */,
@@ -81,11 +156,17 @@
 			children = (
 				14201E751ABB2C1400634BEF /* AppDelegate.swift */,
 				14201E7A1ABB2C1400634BEF /* ViewController.swift */,
+				14201E981ABB2C3700634BEF /* Price.swift */,
+				14201EC01ABB4A2100634BEF /* Prices.swift */,
+				14201E9A1ABB2C4E00634BEF /* Query.swift */,
+				14201E9C1ABB2C7C00634BEF /* City.swift */,
+				14201E9E1ABB2CEB00634BEF /* Location.swift */,
 				14201E7C1ABB2C1400634BEF /* Main.storyboard */,
 				14201E7F1ABB2C1400634BEF /* Images.xcassets */,
 				14201E811ABB2C1400634BEF /* LaunchScreen.xib */,
 				14201E771ABB2C1400634BEF /* Lyft_vs_Uber.xcdatamodeld */,
 				14201E731ABB2C1400634BEF /* Supporting Files */,
+				14201EC21ABB4B8500634BEF /* Lyft vs Uber-Bridging-Header.h */,
 			);
 			path = "Lyft vs Uber";
 			sourceTree = "<group>";
@@ -215,7 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14201E9B1ABB2C4E00634BEF /* Query.swift in Sources */,
+				14201E9F1ABB2CEB00634BEF /* Location.swift in Sources */,
 				14201E7B1ABB2C1400634BEF /* ViewController.swift in Sources */,
+				14201E9D1ABB2C7C00634BEF /* City.swift in Sources */,
+				14201E991ABB2C3700634BEF /* Price.swift in Sources */,
+				14201EC11ABB4A2100634BEF /* Prices.swift in Sources */,
 				14201E761ABB2C1400634BEF /* AppDelegate.swift in Sources */,
 				14201E791ABB2C1400634BEF /* Lyft_vs_Uber.xcdatamodeld in Sources */,
 			);
@@ -293,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -330,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,9 +428,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Lyft vs Uber/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lyft vs Uber/Lyft vs Uber-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -352,9 +446,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Lyft vs Uber/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lyft vs Uber/Lyft vs Uber-Bridging-Header.h";
 			};
 			name = Release;
 		};
